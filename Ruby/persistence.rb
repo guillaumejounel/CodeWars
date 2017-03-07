@@ -1,4 +1,4 @@
-#returns the multiplicative persistence of n (number of times necessary to
+#returns the multiplicative persistence of n (number of steps necessary to
 #reach a single digit by multiplying the digits in n)
 
 def persistence(n)
@@ -11,7 +11,7 @@ def persistence(n)
 end
 
 
-#best :
+#best solution:
 
 def persistence(n)
   n < 10 ? 0 : 1 + persistence(n.to_s.chars.map(&:to_i).reduce(:*))
