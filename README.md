@@ -8,4 +8,5 @@ CodeWars
 
 > -  You can find my CodeWars user profile right [here](https://www.codewars.com/users/guillaumejounel/completed).
 > - I've decided to use CodeWars with the following languages :<br />
->  ```C, C++, JavaScript, Python, Ruby, Shell, SQL, Swift```
+>  ```C, C++, JavaScript, Python, Ruby, Shell, SQL, Swift```<br/>
+>  SQL challenges are difficult to explain here but can be found on my Codewars user profile.
