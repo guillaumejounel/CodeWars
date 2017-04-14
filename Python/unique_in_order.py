@@ -5,10 +5,11 @@
 def unique_in_order(iterable):
     res=[]
     tab = list(iterable)
-    res.append(tab[0])
-    for i in range(1,len(tab)):
-        if tab[i]!=tab[i-1]:
-            res.append(tab[i])
+    if (len(tab)):
+        res.append(tab[0])
+        for i in range(1,len(tab)):
+            if tab[i]!=tab[i-1]:
+                res.append(tab[i])
     return res
 
 print unique_in_order('AAAABBBCCDAABBB') == ['A', 'B', 'C', 'D', 'A', 'B']
